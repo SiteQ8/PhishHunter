@@ -339,7 +339,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Ali AlEnezi**
 - Email: [site@hotmail.com](mailto:site@hotmail.com)
 - GitHub: [@SiteQ8](https://github.com/SiteQ8)
-- LinkedIn: [Ali AlEnezi](https://linkedin.com/in/ali-alenezi)
+- LinkedIn: [Ali AlEnezi](https://linkedin.com/in/alenizi)
 
 ## 🙏 Acknowledgments
 
