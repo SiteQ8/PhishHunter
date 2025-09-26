@@ -1,0 +1,20 @@
+# PhishHunter Requirements
+# Core dependencies
+requests>=2.25.0
+urllib3>=1.26.0
+dnspython>=2.1.0
+python-whois>=0.7.3
+
+# Optional ML dependencies
+scikit-learn>=1.0.0
+numpy>=1.21.0
+
+# Optional advanced features
+certstream>=1.11
+urlscan-py>=1.0.0
+
+# Development dependencies
+pytest>=6.0.0
+pytest-cov>=2.10.0
+black>=21.0.0
+flake8>=3.8.0
