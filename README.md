@@ -1,4 +1,4 @@
-# PhishHunter 🎣🛡️
+# PhishHunter
 
 [![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -7,7 +7,7 @@
 
 An advanced Python tool for detecting phishing websites using multiple detection methods including URL analysis, domain reputation checking, certificate analysis, WHOIS inspection, DNS analysis, and machine learning.
 
-## 🚀 Features
+## Features
 
 - **Multi-layered Detection**: Combines multiple detection techniques for high accuracy
 - **URL Structure Analysis**: Examines URLs for suspicious patterns and characteristics
@@ -21,7 +21,7 @@ An advanced Python tool for detecting phishing websites using multiple detection
 - **API Integration**: Supports multiple security APIs
 - **Real-time Monitoring**: Can be extended for Certificate Transparency monitoring
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Installation](#installation)
 - [Quick Start](#quick-start)
@@ -34,7 +34,7 @@ An advanced Python tool for detecting phishing websites using multiple detection
 - [License](#license)
 - [Author](#author)
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 
@@ -61,7 +61,7 @@ chmod +x phishhunter.py
 pip install phishhunter
 ```
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Basic Usage
 
@@ -99,7 +99,7 @@ urls = ['https://site1.com', 'https://site2.com']
 results = hunter.batch_analyze(urls)
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 Create a `config.json` file to customize PhishHunter's behavior:
 
@@ -125,7 +125,7 @@ Create a `config.json` file to customize PhishHunter's behavior:
 1. **VirusTotal**: Get your free API key from [VirusTotal](https://www.virustotal.com/gui/join-us)
 2. **URLScan.io**: Register at [URLScan.io](https://urlscan.io/user/signup)
 
-## 📚 Usage Examples
+## Usage Examples
 
 ### Command Line Interface
 
@@ -156,7 +156,7 @@ https://phishing-example.net
 https://fake-bank-login.tk
 ```
 
-## 🔍 Detection Methods
+## Detection Methods
 
 PhishHunter uses multiple detection methods to identify phishing websites:
 
@@ -198,7 +198,7 @@ PhishHunter uses multiple detection methods to identify phishing websites:
 - Advanced pattern recognition
 - Continuous learning capability
 
-## 🔌 API Integration
+## API Integration
 
 PhishHunter supports multiple security APIs:
 
@@ -221,7 +221,7 @@ hunter = PhishHunter()
 hunter.add_detector(CustomReputationChecker())
 ```
 
-## 📊 Output Formats
+## Output Formats
 
 ### JSON Output
 ```json
@@ -247,7 +247,7 @@ URL,Is_Phishing,Confidence_Score,Detection_Methods,Risk_Factors,Timestamp
 https://example.com,False,0.25,url_analysis;domain_reputation,newly_registered_domain,2025-09-26T21:30:00
 ```
 
-## 🛡️ Security Considerations
+## Security Considerations
 
 - **Rate Limiting**: Respects API rate limits
 - **Privacy**: No sensitive data is logged
@@ -255,7 +255,7 @@ https://example.com,False,0.25,url_analysis;domain_reputation,newly_registered_d
 - **Error Handling**: Graceful failure handling
 - **Safe Defaults**: Conservative detection thresholds
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Custom Detection Rules
 
@@ -289,14 +289,14 @@ monitor = CertificateMonitor()
 monitor.start_monitoring(['paypal', 'amazon', 'microsoft'])
 ```
 
-## 📈 Performance
+## Performance
 
 - **Speed**: Analyzes 100+ URLs per minute
 - **Accuracy**: 95%+ detection rate with <2% false positives
 - **Scalability**: Multi-threaded processing
 - **Memory**: Efficient memory usage for large batches
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run tests
@@ -310,7 +310,7 @@ flake8 phishhunter.py
 black phishhunter.py
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
@@ -330,31 +330,31 @@ pip install -r requirements-dev.txt
 - Documentation updates
 - Bug fixes and testing
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+## Author
 
 **Ali AlEnezi**
 - Email: [site@hotmail.com](mailto:site@hotmail.com)
 - GitHub: [@SiteQ8](https://github.com/SiteQ8)
 - LinkedIn: [Ali AlEnezi](https://linkedin.com/in/alenizi)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Certificate Transparency project for real-time certificate data
 - VirusTotal for domain reputation data
 - URLScan.io for website analysis capabilities
 - The cybersecurity community for threat intelligence
 
-## 📞 Support
+## Support
 
 - **Issues**: [GitHub Issues](https://github.com/SiteQ8/phishhunter/issues)
 - **Email**: [site@hotmail.com](mailto:site@hotmail.com)
 - **Documentation**: [Wiki](https://github.com/SiteQ8/phishhunter/wiki)
 
-## 🔮 Roadmap
+## Roadmap
 
 ### Upcoming Features
 - [ ] Real-time Certificate Transparency monitoring
