@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-PhishHunter - Advanced Phishing Website Detection Tool
+PhishHunter - Phishing Website Detection Tool
 Author: Ali AlEnezi
 Email: site@hotmail.com
 GitHub: https://github.com/SiteQ8/
 Version: 1.0.0
 
-A comprehensive Python tool for detecting phishing websites using multiple detection methods:
+A Python tool for detecting phishing websites using multiple detection methods:
 - URL structure analysis
 - Domain reputation checking
 - Certificate transparency monitoring
@@ -67,7 +67,7 @@ class DetectionResult:
     details: Dict
 
 class PhishHunter:
-    """Advanced Phishing Detection System"""
+    """Phishing Detection System"""
 
     def __init__(self, config_file: Optional[str] = None):
         """Initialize PhishHunter with configuration"""
@@ -120,7 +120,7 @@ class PhishHunter:
         return default_config
 
     def analyze_url(self, url: str) -> DetectionResult:
-        """Comprehensive analysis of a URL for phishing indicators"""
+        """Analysis of a URL for phishing indicators"""
         logger.info(f"Analyzing URL: {url}")
 
         # Normalize URL
@@ -432,7 +432,7 @@ class DomainReputationChecker:
 
     def _is_known_phishing_domain(self, domain: str) -> bool:
         """Check against known phishing domain patterns"""
-        # Basic check - you could expand this with actual blacklists
+        # Basic pattern check, no blacklist lookup
         phishing_patterns = [
             r'.*paypal.*secure.*',
             r'.*amazon.*login.*',
@@ -621,7 +621,7 @@ if ML_AVAILABLE:
 
         def _train_model(self):
             """Train the ML model with sample data"""
-            # Sample training data - in a real implementation, use a larger dataset
+            # Small sample training set
             training_urls = [
                 # Legitimate URLs
                 'https://www.google.com',

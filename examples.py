@@ -3,7 +3,7 @@
 PhishHunter Usage Examples
 Author: Ali AlEnezi
 
-This script demonstrates various ways to use PhishHunter for detecting phishing websites.
+Ways to use PhishHunter for detecting phishing websites.
 """
 
 from phishhunter import PhishHunter
